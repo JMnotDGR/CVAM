@@ -92,7 +92,7 @@ draw.mutAndOcc(occ, mut)
 plt.show()
 ```
 
-![image](https://github.com/JMnotDGR/CVAM/blob/main/data/occ and mut.png)
+![image](https://github.com/JMnotDGR/CVAM/blob/main/data/occ%20and%20mut.png)
 
 ### 5.  CNV multi-distance spatial pattern analysis
 
