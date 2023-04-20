@@ -69,7 +69,7 @@ predict_label = classify[1].values + 1
 draw.zplot(location, predict_label, max(predict_label))
 plt.show()
 ```
-![fenbu](D:\CVAM\data\mouse_ST_lung cancer\fenbu.svg)
+![image](https://github.com/JMnotDGR/CVAM/blob/main/data/fenbu.svg)
 
 ```bash
 # Visual CNV profile
@@ -77,7 +77,7 @@ draw.drawprofile(res, refer, classify)
 plt.show()
 ```
 
-![cnv](D:\CVAM-origin\data\cnv.png)
+![image](https://github.com/JMnotDGR/CVAM/blob/main/data/cnv.png)
 
 ### 4. co-occurrence and mutual exclusion analysis
 
@@ -92,7 +92,7 @@ draw.mutAndOcc(occ, mut)
 plt.show()
 ```
 
-![occ and mut](D:\CVAM-origin\data\occ and mut.png)
+![image](https://github.com/JMnotDGR/CVAM/blob/main/data/occ and mut.png)
 
 ### 5.  CNV multi-distance spatial pattern analysis
 
@@ -110,4 +110,4 @@ gene = "S100a8"
 analyze.inferPattern(res.loc[gene], rrange, path)
 ```
 
-![s100a8](D:\CVAM-origin\data\s100a8.png)
+![image](https://github.com/JMnotDGR/CVAM/blob/main/data/s100a8.png)
